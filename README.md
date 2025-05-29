@@ -89,7 +89,7 @@ Target Metrics:
 
 #### Model Comparison
 ![Model Comparison](figures/model_comparison.png)
-*Figure 4: Performance comparison across all models (XGB, RF, DT, LR) for each target variable*
+*Figure 1: Performance comparison across all models (XGB, RF, DT, LR) for each target variable*
 
 The comparison shows that:
 - XGBoost consistently outperforms other models across all metrics
@@ -102,81 +102,81 @@ The comparison shows that:
 
 ###### Feature Importance by Target
 ![XGB Feature Importance - Oil Rate](figures/xgb/feature_importance_qo.png)
-*Figure 8: XGBoost feature importance for oil rate prediction*
+*Figure 2: XGBoost feature importance for oil rate prediction*
 
 ![XGB Feature Importance - Water Cut](figures/xgb/feature_importance_water_cut.png)
-*Figure 9: XGBoost feature importance for water cut prediction*
+*Figure 3: XGBoost feature importance for water cut prediction*
 
 ![XGB Feature Importance - Bottomhole Pressure](figures/xgb/feature_importance_pwf.png)
-*Figure 10: XGBoost feature importance for bottomhole pressure prediction*
+*Figure 4: XGBoost feature importance for bottomhole pressure prediction*
 
 ![XGB Feature Importance - Water Saturation](figures/xgb/feature_importance_sw.png)
-*Figure 11: XGBoost feature importance for water saturation prediction*
+*Figure 5: XGBoost feature importance for water saturation prediction*
 
 ###### Predictions vs Actual Values
 ![XGB Predictions vs Actual - Oil Rate](figures/xgb/predictions_vs_actual_qo.png)
-*Figure 12: XGBoost predictions vs actual values for oil rate*
+*Figure 6: XGBoost predictions vs actual values for oil rate*
 
 ![XGB Predictions vs Actual - Water Cut](figures/xgb/predictions_vs_actual_water_cut.png)
-*Figure 13: XGBoost predictions vs actual values for water cut*
+*Figure 7: XGBoost predictions vs actual values for water cut*
 
 ![XGB Predictions vs Actual - Bottomhole Pressure](figures/xgb/predictions_vs_actual_pwf.png)
-*Figure 14: XGBoost predictions vs actual values for bottomhole pressure*
+*Figure 8: XGBoost predictions vs actual values for bottomhole pressure*
 
 ![XGB Predictions vs Actual - Water Saturation](figures/xgb/predictions_vs_actual_sw.png)
-*Figure 15: XGBoost predictions vs actual values for water saturation*
+*Figure 9: XGBoost predictions vs actual values for water saturation*
 
 ###### Time Series Analysis
 ![XGB Time Series - Simulation 1](figures/xgb/time_series_sim_0.png)
-*Figure 16: XGBoost time series predictions for simulation 1*
+*Figure 10: XGBoost time series predictions for simulation 1*
 
 ![XGB Time Series - Simulation 2](figures/xgb/time_series_sim_1.png)
-*Figure 17: XGBoost time series predictions for simulation 2*
+*Figure 11: XGBoost time series predictions for simulation 2*
 
 ![XGB Time Series - Simulation 3](figures/xgb/time_series_sim_2.png)
-*Figure 18: XGBoost time series predictions for simulation 3*
+*Figure 12: XGBoost time series predictions for simulation 3*
 
 ##### Random Forest Model Analysis
 
 ###### Feature Importance by Target
 ![RF Feature Importance - Oil Rate](figures/rf/feature_importance_qo.png)
-*Figure 19: Random Forest feature importance for oil rate prediction*
+*Figure 13: Random Forest feature importance for oil rate prediction*
 
 ![RF Feature Importance - Water Cut](figures/rf/feature_importance_water_cut.png)
-*Figure 20: Random Forest feature importance for water cut prediction*
+*Figure 14: Random Forest feature importance for water cut prediction*
 
 ![RF Feature Importance - Bottomhole Pressure](figures/rf/feature_importance_pwf.png)
-*Figure 21: Random Forest feature importance for bottomhole pressure prediction*
+*Figure 15: Random Forest feature importance for bottomhole pressure prediction*
 
 ![RF Feature Importance - Water Saturation](figures/rf/feature_importance_sw.png)
-*Figure 22: Random Forest feature importance for water saturation prediction*
+*Figure 16: Random Forest feature importance for water saturation prediction*
 
 ###### Predictions vs Actual Values
 ![RF Predictions vs Actual - Oil Rate](figures/rf/predictions_vs_actual_qo.png)
-*Figure 23: Random Forest predictions vs actual values for oil rate*
+*Figure 17: Random Forest predictions vs actual values for oil rate*
 
 ![RF Predictions vs Actual - Water Cut](figures/rf/predictions_vs_actual_water_cut.png)
-*Figure 24: Random Forest predictions vs actual values for water cut*
+*Figure 18: Random Forest predictions vs actual values for water cut*
 
 ![RF Predictions vs Actual - Bottomhole Pressure](figures/rf/predictions_vs_actual_pwf.png)
-*Figure 25: Random Forest predictions vs actual values for bottomhole pressure*
+*Figure 19: Random Forest predictions vs actual values for bottomhole pressure*
 
 ![RF Predictions vs Actual - Water Saturation](figures/rf/predictions_vs_actual_sw.png)
-*Figure 26: Random Forest predictions vs actual values for water saturation*
+*Figure 20: Random Forest predictions vs actual values for water saturation*
 
 ###### Time Series Analysis
 ![RF Time Series - Simulation 1](figures/rf/time_series_sim_0.png)
-*Figure 27: Random Forest time series predictions for simulation 1*
+*Figure 21: Random Forest time series predictions for simulation 1*
 
 ![RF Time Series - Simulation 2](figures/rf/time_series_sim_1.png)
-*Figure 28: Random Forest time series predictions for simulation 2*
+*Figure 22: Random Forest time series predictions for simulation 2*
 
 ![RF Time Series - Simulation 3](figures/rf/time_series_sim_2.png)
-*Figure 29: Random Forest time series predictions for simulation 3*
+*Figure 23: Random Forest time series predictions for simulation 3*
 
 ### Prediction Quality Analysis
 ![Prediction vs Actual](figures/prediction_vs_actual.png)
-*Figure 5: Scatter plots of predicted vs actual values for each target variable*
+*Figure 24: Scatter plots of predicted vs actual values for each target variable*
 
 Key observations:
 - Strong correlation between predicted and actual values for water cut
@@ -186,7 +186,7 @@ Key observations:
 
 #### Error Analysis
 ![Error Distribution](figures/error_distribution.png)
-*Figure 6: Error distribution analysis for each target variable*
+*Figure 25: Error distribution analysis for each target variable*
 
 Error analysis reveals:
 - Normally distributed errors for most targets
@@ -196,7 +196,7 @@ Error analysis reveals:
 
 #### Time Series Analysis
 ![Time Series](figures/time_series.png)
-*Figure 7: Time series comparison of actual vs predicted values*
+*Figure 26: Time series comparison of actual vs predicted values*
 
 Time series analysis shows:
 - Good capture of trends and patterns
@@ -217,7 +217,7 @@ Feature Importance Scores:
 ```
 
 ![Feature Importance Plot](figures/feature_importance.png)
-*Figure 1: Relative importance of geological parameters*
+*Figure 27: Relative importance of geological parameters*
 
 ### Geological Interpretation
 
@@ -238,7 +238,7 @@ Feature Importance Scores:
    - Recommendation: Focus on other parameters
 
 ![Production Map](figures/production_map.png)
-*Figure 2: Production potential map based on key parameters*
+*Figure 28: Production potential map based on key parameters*
 
 ## Discussion
 
@@ -290,7 +290,7 @@ Feature Importance Scores:
    - Risk assessment
 
 ![Business Impact](figures/business_impact.png)
-*Figure 3: Business impact analysis*
+*Figure 29: Business impact analysis*
 
 ## Conclusions and Recommendations
 
