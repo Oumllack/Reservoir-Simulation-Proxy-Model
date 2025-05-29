@@ -373,8 +373,6 @@ Targets: 4
 Training/Test Split: 80/20
 ```
 
-### C. Performance Metrics
-Detailed performance metrics for all models and targets available in `analysis_results/`.
 
 ## Contact
 For questions and collaboration opportunities, please contact the development team.
@@ -467,7 +465,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    - Bottomhole pressure predictions show the highest errors
    - Water cut predictions show the lowest MAE values
    - Oil rate predictions show moderate performance
+  
+## Contact
+For questions and collaboration opportunities, please contact the development team.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 4. **Error Patterns**
    - Consistent error patterns across all models
    - Higher errors in pressure predictions
