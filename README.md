@@ -59,43 +59,6 @@ Model Performance Metrics:
 - Proxy Time: 0.013 seconds per scenario
 - Speedup Factor: 100x
 ```
-
-#### Prediction Accuracy
-```python
-# Model accuracy metrics (XGB model)
-Target Metrics:
-1. Oil Rate (qo):
-   - R²: 0.0009
-   - MAE: 116.27
-   - RMSE: 128.14
-
-2. Water Cut:
-   - R²: 0.0010
-   - MAE: 0.049
-   - RMSE: 0.059
-
-3. Bottomhole Pressure (pwf):
-   - R²: 0.0003
-   - MAE: 268.37
-   - RMSE: 268.51
-
-4. Water Saturation (sw):
-   - R²: 0.0021
-   - MAE: 0.407
-   - RMSE: 0.408
-```
-
-### Model Analysis and Visualizations
-
-#### Model Comparison
-![Model Comparison](figures/model_comparison.png)
-*Figure 1: Performance comparison across all models (XGB, RF, DT, LR) for each target variable*
-
-The comparison shows that:
-- XGBoost consistently outperforms other models across all metrics
-- Random Forest shows competitive performance, particularly for water cut predictions
-- Decision Tree and Linear Regression models show lower performance but provide baseline comparisons
-
 #### Detailed Model Analysis
 
 ##### XGBoost Model Analysis
